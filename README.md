@@ -5,7 +5,7 @@ Sou estudante de Engenharia de Software. Atualmente, foco meu aprendizado na con
 ---
 
 ### Tecnologias que utilizo:
-<img src="https://skillicons.dev/icons?i=html,css,js" />
+<img src="https://skillicons.dev/icons?i=vscode,html,css,js,postgres,git,github" />
 
 ### No momento estou aprendendo:
 <img src="https://skillicons.dev/icons?i=nodejs,ts,react,tailwind" />
