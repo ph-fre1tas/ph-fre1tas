@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img">
+<defs>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f5176"/><stop offset="1" stop-color="#05202f"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c3a5e"/><stop offset="1" stop-color="#041a2d"/></linearGradient>
+  <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fd8ff" stop-opacity=".16"/><stop offset="1" stop-color="#9fd8ff" stop-opacity="0"/></linearGradient>
+  <clipPath id="tank"><rect width="900" height="340" rx="18"/></clipPath>
+  <style>
+    .swr{animation:swr linear infinite}.swl{animation:swl linear infinite}
+    @keyframes swr{from{transform:translateX(-70px)}to{transform:translateX(970px)}}
+    @keyframes swl{from{transform:translateX(970px)}to{transform:translateX(-70px)}}
+    .bob{animation:bob 3.2s ease-in-out infinite alternate}
+    @keyframes bob{from{transform:translateY(-5px)}to{transform:translateY(5px)}}
+    .sw{transform-box:fill-box;transform-origin:50% 100%;animation:sway 4.5s ease-in-out infinite alternate}
+    @keyframes sway{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}
+    .bub{fill:none;stroke:#bfe8ff;stroke-opacity:.55;stroke-width:1;animation:rise linear infinite}
+    @keyframes rise{0%{transform:translateY(0);opacity:0}10%{opacity:1}100%{transform:translateY(-270px);opacity:0}}
+  </style>
+</defs>
+<g clip-path="url(#tank)">
+  <rect width="900" height="340" fill="url(#water)"/>
+  <polygon points="90,0 150,0 290,300 50,300" fill="url(#ray)"/><polygon points="260,0 320,0 440,300 220,300" fill="url(#ray)"/><polygon points="470,0 530,0 630,300 430,300" fill="url(#ray)"/><polygon points="650,0 710,0 790,300 610,300" fill="url(#ray)"/>
+  <circle class="bub" cx="426.7" cy="290" r="2.9" style="animation-duration:14.9s;animation-delay:-11.1s"/>
+<circle class="bub" cx="287.9" cy="290" r="2.7" style="animation-duration:11.5s;animation-delay:-7.9s"/>
+<circle class="bub" cx="542.9" cy="290" r="2.0" style="animation-duration:11.2s;animation-delay:-9.4s"/>
+<circle class="bub" cx="73.0" cy="290" r="4.1" style="animation-duration:7.3s;animation-delay:-1.9s"/>
+<circle class="bub" cx="81.9" cy="290" r="2.6" style="animation-duration:14.1s;animation-delay:-7.5s"/>
+<circle class="bub" cx="52.8" cy="290" r="2.6" style="animation-duration:14.6s;animation-delay:-7.1s"/>
+<circle class="bub" cx="709.6" cy="290" r="3.1" style="animation-duration:11.0s;animation-delay:-0.4s"/>
+<circle class="bub" cx="73.2" cy="290" r="3.9" style="animation-duration:12.4s;animation-delay:-3.0s"/>
+<circle class="bub" cx="572.4" cy="290" r="2.7" style="animation-duration:9.7s;animation-delay:-7.2s"/>
+<circle class="bub" cx="751.3" cy="290" r="3.8" style="animation-duration:8.8s;animation-delay:-2.5s"/>
+<circle class="bub" cx="276.1" cy="290" r="2.3" style="animation-duration:12.9s;animation-delay:-8.8s"/>
+<circle class="bub" cx="612.2" cy="290" r="5.2" style="animation-duration:7.8s;animation-delay:-7.4s"/>
+<circle class="bub" cx="392.2" cy="290" r="5.3" style="animation-duration:8.2s;animation-delay:-0.9s"/>
+<circle class="bub" cx="43.3" cy="290" r="3.3" style="animation-duration:11.3s;animation-delay:-6.9s"/>
+<circle class="bub" cx="785.6" cy="290" r="2.3" style="animation-duration:13.5s;animation-delay:-12.6s"/>
+  <g transform="translate(0,61.0)"><g class="swr" style="animation-duration:26s;animation-delay:-12s"><g class="bob" style="animation-delay:-2.6s"><g transform="scale(0.75)">
+    <path d="M-22 0 L-32 -9 L-32 9Z" fill="#f7dc4a"/>
+    <path d="M-24 0 C-16 -13 8 -13 18 0 C8 13 -16 13 -24 0Z" fill="#f7dc4a"/>
+    <path d="M-4 -9 L2 -17 L8 -9Z" fill="#f7dc4a" opacity=".85"/>
+    <circle cx="10" cy="-2.5" r="2.4" fill="#fff"/><circle cx="10.7" cy="-2.5" r="1.2" fill="#0b1c2c"/>
+  </g></g></g></g>
+<g transform="translate(0,114.7)"><g class="swl" style="animation-duration:33s;animation-delay:-6s"><g class="bob" style="animation-delay:-1.6s"><g transform="scale(-1,1)"><g transform="scale(0.75)">
+    <path d="M-22 0 L-32 -9 L-32 9Z" fill="#2f7fd1"/>
+    <path d="M-24 0 C-16 -13 8 -13 18 0 C8 13 -16 13 -24 0Z" fill="#2f7fd1"/>
+    <path d="M-4 -9 L2 -17 L8 -9Z" fill="#2f7fd1" opacity=".85"/>
+    <circle cx="10" cy="-2.5" r="2.4" fill="#fff"/><circle cx="10.7" cy="-2.5" r="1.2" fill="#0b1c2c"/>
+  </g></g></g></g></g>
+<g transform="translate(0,163.7)"><g class="swr" style="animation-duration:40s;animation-delay:-25s"><g class="bob" style="animation-delay:-2.6s"><g transform="scale(0.75)">
+    <path d="M-22 0 L-32 -9 L-32 9Z" fill="#ff9a52"/>
+    <path d="M-24 0 C-16 -13 8 -13 18 0 C8 13 -16 13 -24 0Z" fill="#ff9a52"/>
+    <path d="M-4 -9 L2 -17 L8 -9Z" fill="#ff9a52" opacity=".85"/>
+    <circle cx="10" cy="-2.5" r="2.4" fill="#fff"/><circle cx="10.7" cy="-2.5" r="1.2" fill="#0b1c2c"/>
+  </g></g></g></g>
+  <path d="M0 306 Q220 294 450 302 T900 298 L900 340 L0 340Z" fill="#7a6648"/>
+  <path class="sw" style="animation-delay:0.0s" d="M40.0 304 Q30.4 276.6 46.0 253.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-0.6s" d="M58.6 304 Q68.2 294 52.6 288" stroke="#2b8a62" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.2s" d="M77.3 304 Q67.7 280.5 83.3 261" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.8s" d="M95.9 304 Q105.5 279.2 89.9 258.4" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-2.4s" d="M114.5 304 Q104.9 270.1 120.5 240.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.0s" d="M133.2 304 Q142.8 294 127.2 288" stroke="#2b8a62" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.6s" d="M151.8 304 Q142.2 276.6 157.8 253.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:0.0s" d="M170.5 304 Q180.1 277.9 164.5 255.8" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-0.6s" d="M189.1 304 Q179.5 294 195.1 288" stroke="#2b8a62" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.2s" d="M207.7 304 Q217.3 283.1 201.7 266.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.8s" d="M226.4 304 Q216.8 285.7 232.4 271.4" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-2.4s" d="M245.0 304 Q254.6 284.4 239.0 268.8" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.0s" d="M263.6 304 Q254.0 275.3 269.6 250.6" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.6s" d="M282.3 304 Q291.9 281.8 276.3 263.6" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:0.0s" d="M300.9 304 Q291.3 285.7 306.9 271.4" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-0.6s" d="M319.5 304 Q329.1 268.8 313.5 237.6" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.2s" d="M338.2 304 Q328.6 294 344.2 288" stroke="#2b8a62" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.8s" d="M356.8 304 Q366.4 274 350.8 248" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-2.4s" d="M375.5 304 Q365.9 283.1 381.5 266.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.0s" d="M394.1 304 Q403.7 275.3 388.1 250.6" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.6s" d="M412.7 304 Q403.1 274 418.7 248" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:0.0s" d="M431.4 304 Q441.0 283.1 425.4 266.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-0.6s" d="M450.0 304 Q440.4 267.5 456.0 235" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.2s" d="M468.6 304 Q478.2 271.4 462.6 242.8" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.8s" d="M487.3 304 Q477.7 271.4 493.3 242.8" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-2.4s" d="M505.9 304 Q515.5 279.2 499.9 258.4" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.0s" d="M524.5 304 Q514.9 266.2 530.5 232.4" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.6s" d="M543.2 304 Q552.8 283.1 537.2 266.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:0.0s" d="M561.8 304 Q552.2 283.1 567.8 266.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-0.6s" d="M580.5 304 Q590.1 280.5 574.5 261" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.2s" d="M599.1 304 Q589.5 283.1 605.1 266.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.8s" d="M617.7 304 Q627.3 270.1 611.7 240.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-2.4s" d="M636.4 304 Q626.8 272.7 642.4 245.4" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.0s" d="M655.0 304 Q664.6 283.1 649.0 266.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.6s" d="M673.6 304 Q664.0 279.2 679.6 258.4" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:0.0s" d="M692.3 304 Q701.9 294 686.3 288" stroke="#2b8a62" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-0.6s" d="M710.9 304 Q701.3 294 716.9 288" stroke="#2b8a62" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.2s" d="M729.5 304 Q739.1 271.4 723.5 242.8" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.8s" d="M748.2 304 Q738.6 272.7 754.2 245.4" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-2.4s" d="M766.8 304 Q776.4 264.9 760.8 229.8" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.0s" d="M785.5 304 Q775.9 284.4 791.5 268.8" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-3.6s" d="M804.1 304 Q813.7 275.3 798.1 250.6" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:0.0s" d="M822.7 304 Q813.1 283.1 828.7 266.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-0.6s" d="M841.4 304 Q851.0 283.1 835.4 266.2" stroke="#3fbf86" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+<path class="sw" style="animation-delay:-1.2s" d="M860.0 304 Q850.4 294 866.0 288" stroke="#2b8a62" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M0 306 Q220 294 450 302 T900 298 L900 340 L0 340Z" fill="#7a6648"/>
+  <text x="24" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#d6ecf7" fill-opacity=".85">AQUARIUM · @PH-FRE1TAS</text>
+  <text x="876" y="326" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#f1e9d8">fish = repos, by stars · seaweed = contributions · bubbles = last 30 days</text>
+  </g>
+</svg>

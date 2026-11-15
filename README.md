@@ -1,18 +1,11 @@
-# Olá, sou o Paulo
+<img src="assets/aquarium.svg" width="100%" alt="Os repositórios de Paulo Henrique como um aquário" />
 
-Sou estudante de Engenharia de Software. Atualmente, foco meu aprendizado na construção de interfaces modernas e funcionais.
+<sub>Cada peixe é um dos meus repositórios; os maiores têm mais estrelas.</sub>
 
----
+<img src="assets/profile.svg" width="100%" alt="Paulo Henrique, desenvolvedor JavaScript" />
 
-### Tecnologias que utilizo:
-<img src="https://skillicons.dev/icons?i=vscode,html,css,js,postgres,git,github" />
+<img src="assets/specimens.svg" width="100%" alt="Meus repositórios em destaque" />
 
-### No momento estou aprendendo:
-<img src="https://skillicons.dev/icons?i=nodejs,ts,react,tailwind" />
+<img src="assets/chemistry.svg" width="100%" alt="Linguagens mais usadas" />
 
----
-
-* Engenharia de Software
-* Desenvolvimento Web
-
-<img src="https://media.tenor.com/y-cCxl8uEw0AAAAM/yetopen.gif" width="150">
+<img src="assets/tide.svg" width="100%" alt="Atividade de contribuições" />
