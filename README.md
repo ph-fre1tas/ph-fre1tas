@@ -1,7 +1,5 @@
 <img src="assets/aquarium.svg" width="100%" alt="Os repositórios de Paulo Henrique como um aquário" />
 
-<sub>Cada peixe é um dos meus repositórios; os maiores têm mais estrelas.</sub>
-
 <img src="assets/profile.svg" width="100%" alt="Paulo Henrique, desenvolvedor JavaScript" />
 
 <img src="assets/specimens.svg" width="100%" alt="Meus repositórios em destaque" />
